@@ -18,8 +18,8 @@ def Service_Start():
 def send_File():
     Admin = {'PATH_FILES':'','TOKEN':'','CHAT_ID':''}
     PATH_FILES = request.form.get('Th_path_Files')
-    TOKEN = request.form.get('Th_Token')  #"668256895:AAEQGcZn7Vo7TdE3pjfxyoIjj71G0mY7mEs"
-    CHAT_ID = request.form.get('Th_chat_ID')  #"-253809024"
+    TOKEN = request.form.get('Th_Token')  
+    CHAT_ID = request.form.get('Th_chat_ID')  
     
     Admin['PATH_FILES'] = PATH_FILES
     Admin['TOKEN'] = TOKEN
