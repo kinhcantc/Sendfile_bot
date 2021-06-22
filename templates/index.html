@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Bot send file to group chat in telegram</title>
+</head>
+
+<body>
+    <div style="margin: 10px;">
+        <p class="text-left fw-bold">Services Info.</p>
+        <hr>
+    </div>
+
+    <div class="col" style="margin: 5px;">
+        <form action="/send_file" method="POST">
+            <div class="row" style="margin: 5px;">
+                <div class="form-group col-1">
+                    <label class="text-left " for="Path_Image" id="name_Path_Image" style="vertical-align:middle">Path Images:</label>
+                </div>
+                <div class="form-group col-3">
+                    <input type="text" class="form-control" name="Th_path_Files" placeholder="D:\files\">
+                </div>
+                
+            </div>
+            <div class="row" style="margin: 5px;">
+                <div class="form-group col-1">
+                    <label class="text-left " for="Path_Image" id="Token" style="vertical-align:middle">Bot Token:</label>
+                </div>
+                <div class="form-group col-3">
+                    <input type="text" class="form-control" name="Th_Token" placeholder="66825xxxx:xxxxx">
+                </div>
+                
+            </div>
+            <div class="row" style="margin: 5px;">
+                <div class="form-group col-1">
+                    <label class="text-left " for="Path_Image" id="chat_id" style="vertical-align:middle">Chat ID:</label>
+                </div>
+                <div class="form-group col-3">
+                    <input type="text" class="form-control" name="Th_chat_ID" placeholder="-25xxxxxx">
+                </div>
+                
+            </div>
+
+
+            <div class="form-group col-1" style="margin: 10px;">
+                <button class='btn btn-primary' type="submit">Start</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
